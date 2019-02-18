@@ -11,3 +11,18 @@
  $ composer require api
  
  ensuite créer vos entite et la base de donnée.
+
+
+## commande pour lancé les tests unitaires.
+
+php bin/phpunit
+
+## commande pour lancer la recherche des faille de securité.
+
+phpcs --extensions=php,inc,lib,module,info
+
+apres avoir installer phppc dans le dossier concerner avec:
+
+$ git clone https://github.com/FloeDesignTechnologies/phpcs-security-audit.git
+$ cd phpcs-security-audit
+$ composer install
