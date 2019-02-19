@@ -19,7 +19,7 @@ php bin/phpunit
 
 ## commande pour lancer la recherche des faille de securité.
 
-phpcs --extensions=php,inc,lib,module,info
+```phpcs --extensions=php,inc,lib,module,info```
 
 apres avoir installer phppc dans le dossier concerner avec:
 
